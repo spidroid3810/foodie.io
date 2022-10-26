@@ -316,7 +316,7 @@ color: #fff;
  .team {
 display:grid;
  grid-template-columns: auto auto;
- grid-template-rows: 1fr 1fr 1fr;
+ grid-template-rows: 0.5fr 0.5fr 0.5fr;
  padding: 10px;
  }
  
