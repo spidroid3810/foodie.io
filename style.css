@@ -24,6 +24,7 @@ nav{
 
 
 nav .logo{
+   
   color: #ffea00;
   font-size: 35px;
   font-weight: 600;
@@ -49,7 +50,7 @@ nav ul li a{
 nav ul li a.active,
 nav ul li a:hover{
   color: #111;
-  background: #ffea00;
+  background: #fea735;
 }
 nav .menu-btn i{
   color: #fff;
@@ -81,7 +82,7 @@ input[type="checkbox"]{
     position: fixed;
     top: 80px;
     right: -100%;
-    background: #eee;
+    background: #fea735;
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -110,7 +111,7 @@ input[type="checkbox"]{
   nav ul li a.active,
   nav ul li a:hover {
     background: none;
-    color: #ffea00;
+    color: #fff;
   }
   
 }
@@ -316,7 +317,6 @@ color: #fff;
  .team {
 display:grid;
  grid-template-columns: auto auto;
- grid-template-rows: 0.5fr 0.5fr 0.5fr;
  padding: 10px;
  }
  
