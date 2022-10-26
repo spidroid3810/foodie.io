@@ -7,7 +7,7 @@
 } 
 
 body{
-background: #eee;
+background: #fff;
 }
 
 nav{
@@ -153,6 +153,12 @@ position: absolute;
  color: crimson;
 }
 
+.text-bot{
+ font-size:16px;
+ font-weight:500;
+ color: crimson;
+}
+
 .top-bottom {
  position: absolute;
  top: 45px;
@@ -163,7 +169,6 @@ position: absolute;
 }
 
 .team {
-    display: ;
 	margin: 0 auto;
 	display: grid;
 	gap: 1rem;
@@ -313,18 +318,52 @@ font-weight:700;
 color: #fff;
 }
 
+.ring{
+margin-left:auto;
+margin-right:auto;
+ height: 300px;
+ width: 300px;
+ border-radius:100%;
+ border: 10px solid crimson;
+
+}
+
+.container2{
+background: #eee;
+width: 100%;
+height: 100%;
+padding: 10px;
+
+}
+
+.fa-check-circle{
+color: crimson;
+
+}
+
+button{
+padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ margin: 4px 2px;
+ border: none;
+}
+
+
 
 @media (min-width: 500px) {
 
  .team { grid-template-columns: repeat(2, 1fr); }
  
-
+.buttons { grid-template-columns: repeat(2, 1fr); }
+ 
 
  .container .btn{
  position: absolute;
  top: 80%;
  left: 52%;
- transform: translate(0%, 800%);
+ transform: translate(0%, 1000%);
  -ms-transform: translate(-50%, -50%);
  background-color: crimson;
  color: white;
@@ -353,6 +392,7 @@ color: #fff;
  font-weight:700;
  color: #fff;
  }
+ 
  
  
  
