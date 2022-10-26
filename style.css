@@ -190,6 +190,7 @@ position: absolute;
     }
      
     .team .card .side.side1{
+        margin-top:-50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -380,8 +381,6 @@ margin-right:auto;
 @media (min-width: 500px) {
 
  .team { grid-template-columns: repeat(2, 1fr); }
- 
-.buttons { grid-template-columns: repeat(2, 1fr); }
  
 
  .container .btn{
