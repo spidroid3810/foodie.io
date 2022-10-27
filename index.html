@@ -21,10 +21,10 @@
          </label>
          <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="about.html">Menu</a></li>
-            <li><a href="gallery.html">Blog</a></li>
-            <li><a href="booking.html">Reservation</a></li>
-            <li><a href="contact.html">Pages</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Pages</a></li>
          </ul>
       </nav>
            
@@ -37,7 +37,7 @@
              <div class="card" data-aos="fade-up" >
              <div class="side side1">
              <div class="img-info">
-             <img src="burger.png" data-aos="slide-right" >
+             <img  src="burger.png" data-aos="slide-right" >
              <h2>Burgers</h2>
              </div>
              </div>
@@ -94,11 +94,11 @@
              <h1>Panpie, Burgers, And Best Pizzas In Town</h1>
              <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> 
                      
-             <i class="fas fa-check-circle"></i> Additional charge for premium toppings
+           <h4>  <i class="fas fa-check-circle"></i> Additional charge for premium toppings</h4>
              <br>
-             <i class="fas fa-check-circle"></i> Minimum of 2 required.
+            <h4><i class="fas fa-check-circle"></i> Minimum of 2 required.</h4>
              <br>
-             <i class="fas fa-check-circle"></i> Premium toppings are fixed
+             <h4><i class="fas fa-check-circle"></i> Premium toppings are fixed</h4>
              <br>
              <br>
              <a class="btn1" href="" >Who We Are?</a>
@@ -112,52 +112,83 @@
              To Eat Best Food</h1>
            
              
-             <button class="btn1" href="" data-aos="fade-in" >ALL Items</button>
+             <button class="btn1" onclick="item1();item2();item3();item4();item5();item6();" data-aos="fade-in" >ALL Items</button>
              
-             <button class="btn1" href="" data-aos="fade-in" >Pizzas</button>
+             <button class="btn1" onclick="afterr1();afterr2();afterr3();afterr4();afterr5();afterr6();" data-aos="fade-in" >Pizzas</button>
              
-             <button class="btn1" href="" data-aos="fade-in" >Burgers</button>
+             <button class="btn1" onclick="before1();before2();before3();before4();before5();before6();" data-aos="fade-in" >Burgers</button>
              
-             <button class="btn1" href="" data-aos="fade-in">Wraps</button>
+             <button class="btn1" onclick="" data-aos="fade-in">Wraps</button>
              
-             <button class="btn1" href="" data-aos="fade-in">Soft Drinks</button>
+             <button class="btn1" onclick="soft1();soft2();soft3();soft4();soft5();soft6();" data-aos="fade-in">Soft Drinks</button>
              
-             <div class="container2">
-              
-              
-            <div class="card1" data-aos="flip-left"> 
-            <h3>Pepperoni pizza</h3>
-            <img class="ring2" src="pizza.png"data-aos="flip-down">
-            <br>
-            <div><p>22 cm $19.00<br>
-            29cm $22.00
-            </p>
-            </div>
-            </div>
-            <br>
-            <div class="card1" data-aos="flip-right"> 
-            <h3>italiano pizza</h3>
-            <img class="ring2" src="pizza.png" data-aos="flip-up">
-            <br>
-            <div><p>22 cm $19.00<br>
-            29cm $22.00
-            </p>
-            </div>
-            </div>
-            
-            
-            
+             <div class="container4">
+             <div class="card1" data-aos="flip-left"> 
+             <h3 id="name1">Burger</h3>
+             <img class="ring2" id="myImage1" src="burger.png" data-aos="flip-down">
+             <br>
+             <br>
+             <p id="price1">$14.00<br>
+       
+             </p>
              </div>
              
+             <div class="card1" data-aos="flip-left"> 
+             <h3 id="name2">Italiano pizza</h3>
+             <img class="ring2" id="myImage2" src="pizza.png" data-aos="flip-down">
+             <br>
+             <br>
+             <p id="price2">22 cm $19.00<br>
+             29cm $22.00
+             </p>
+            </div>
              
+             <div class="card1" data-aos="flip-left"> 
+             <h3 id="name3">Soft drink</h3>
+             <img class="ring2" id="myImage3" src="soft.png" data-aos="flip-down">
+             <br>
+             <br>
+             <p id="price3">$5.00<br>
+             </p>
+             </div>
+             
+             <div class="card1" data-aos="flip-left"> 
+             <h3 id="name4">French fries</h3>
+             <img class="ring2" id="myImage4" src="fries.png" data-aos="flip-down">
+             <br>
+             <br>
+             <p id="price4">$10.00<br>
+        
+             </p>
+             </div>
+             
+             <div class="card1" data-aos="flip-left"> 
+             <h3 id="name5">Veg pizza</h3>
+             <img class="ring2" id="myImage5" src="pizza.png"data-aos="flip-down">
+             <br>
+             <br>
+             <p id="price5">22 cm $19.00<br>
+             29cm $22.00
+             </p>
+             </div>
+             
+             <div class="card1" data-aos="flip-left"> 
+             <h3 id="name6">Burger Two</h3>
+             <img class="ring2" id="myImage6" src="burger.png"data-aos="flip-down">
+             <br>
+             <br>
+             <p id="price6">$16.00<br>
+             </p>
+             </div>
              
              </div>
              
  
 </div>
+<script src="script.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init();    
   </script>
 </body>
 </html>
