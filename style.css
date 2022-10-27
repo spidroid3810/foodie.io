@@ -27,7 +27,6 @@ nav{
 
 
 nav .logo{
-   
   color: #ffea00;
   font-size: 35px;
   font-weight: 600;
@@ -114,9 +113,8 @@ input[type="checkbox"]{
   nav ul li a.active,
   nav ul li a:hover {
     background: none;
-    color: #fff;
+    color: #fea735;
   }
-  
   
 }
 .content{
@@ -139,7 +137,7 @@ position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #0f4061; 
+  background-color: crimson; 
   color: #fff;
   text-align: center;
  height: 80px;
