@@ -358,7 +358,9 @@ padding: 15px 32px;
     margin-right:auto;
     background: crimson;
     border-radius:20px;
-    margin-top:30px;
+    margin-top:35px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.8);
+    
 }
 
   .card1:hover{
