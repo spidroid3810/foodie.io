@@ -6,7 +6,7 @@ function item1(){
     
     document.getElementById('name1')
     
-    .innerHTML="Burger";
+    .innerHTML="Classic Burger";
     
     document.getElementById('price1')
     
@@ -23,7 +23,7 @@ function item1(){
     
     document.getElementById('name2')
     
-    .innerHTML="Italiano pizza";
+    .innerHTML="Italiano Pizza";
     
     document.getElementById('price2')
     
@@ -39,7 +39,7 @@ function item1(){
     
     document.getElementById('name3')
     
-    .innerHTML="Soft drink";
+    .innerHTML="Combo Meals";
     
     document.getElementById('price3')
     
@@ -56,7 +56,7 @@ function item1(){
     
     document.getElementById('name4')
     
-    .innerHTML="French fries";
+    .innerHTML="Wraps";
     
     document.getElementById('price4')
     
@@ -75,7 +75,7 @@ function item1(){
     
     document.getElementById('name1')
     
-    .innerHTML="Burger one";
+    .innerHTML="Classic Burger";
     
     document.getElementById('price1')
     
@@ -91,7 +91,7 @@ function item1(){
     
     document.getElementById('name2')
     
-    .innerHTML="Burger Two";
+    .innerHTML="Double Cheese Burger";
     
     document.getElementById('price2')
     
@@ -106,7 +106,7 @@ function item1(){
     
     document.getElementById('name3')
     
-    .innerHTML="Burger Three";
+    .innerHTML="Chicken Burger";
     
     document.getElementById('price3')
     
@@ -122,7 +122,7 @@ function item1(){
     
     document.getElementById('name4')
     
-    .innerHTML="Burger Four";
+    .innerHTML="Veg Burger";
     
     document.getElementById('price4')
     
@@ -140,7 +140,7 @@ function item1(){
     
     document.getElementById('name1')
     
-    .innerHTML="Soft drink one";
+    .innerHTML="Non-veg Burger Combo Meals";
     
     document.getElementById('price1')
     
@@ -156,7 +156,7 @@ function item1(){
     
     document.getElementById('name2')
    
-    .innerHTML="Soft drink Two";
+    .innerHTML="Veg Burger Combo Meals";
     
     document.getElementById('price2')
     
@@ -172,7 +172,7 @@ function item1(){
     
     document.getElementById('name3')
     
-    .innerHTML="Soft drink Three";
+    .innerHTML="Veg Pizza Combo Meals";
     
     document.getElementById('price3')
     
@@ -188,7 +188,7 @@ function item1(){
     
     document.getElementById('name4')
     
-    .innerHTML="Soft drink Four";
+    .innerHTML="Wraps Combo Meals";
     
     document.getElementById('price4')
     
@@ -205,7 +205,7 @@ function item1(){
     
     document.getElementById('name1')
     
-    .innerHTML="Pepperoni pizza";
+    .innerHTML="Pepperoni Pizza";
     
    document.getElementById('price1')
   
@@ -221,7 +221,7 @@ function item1(){
     
      document.getElementById('name2')
         
-    .innerHTML="Italiano pizza";
+    .innerHTML="Italiano Pizza";
     
     document.getElementById('price2')
     
@@ -238,7 +238,7 @@ function item1(){
     
     document.getElementById('name3')
     
-    .innerHTML="Mexican pizza";
+    .innerHTML="Veg Pizza";
         
    document.getElementById('price3')
    
@@ -256,7 +256,7 @@ function item1(){
     
     document.getElementById('name4')
     
-    .innerHTML="Veg pizza";
+    .innerHTML="Chicken Pizza";
     
     document.getElementById('price4')
     
@@ -273,11 +273,11 @@ function item1(){
   
   document.getElementById('name1')
   
-  .innerHTML="Veggie wrap";
+  .innerHTML="Veggie Wrap";
   
   document.getElementById('price1')
   
-  .innerHTML="22cm $19.00<br>29cm $22.00";
+  .innerHTML="$19.00";
   
   }
   
@@ -289,11 +289,11 @@ function item1(){
   
   document.getElementById('name2')
   
-  .innerHTML="cheese wrap";
+  .innerHTML="Cheese Wrap";
   
   document.getElementById('price2')
   
-  .innerHTML="22cm $15.00<br>29cm $19.00";
+  .innerHTML="$15.00";
   
   }
   
@@ -306,11 +306,11 @@ function item1(){
   
   document.getElementById('name3')
   
-  .innerHTML="Mexican pizza";
+  .innerHTML="Chicken Wrap";
   
   document.getElementById('price3')
   
-  .innerHTML="22cm $15.00<br>29cm $20.00";
+  .innerHTML="$15.00";
   
   
   
@@ -324,11 +324,11 @@ function item1(){
   
   document.getElementById('name4')
   
-  .innerHTML="Veg pizza";
+  .innerHTML="Paneer Wrap";
   
   document.getElementById('price4')
   
-  .innerHTML="22cm $16.00<br>29cm $18.00";
+  .innerHTML="$16.00";
   
   
   }
