@@ -187,9 +187,17 @@ position: absolute;
  left: 1%;
  font-size:25px;
  font-weight:700;
- color: crimson;
+ color: #ffffff;
 }
 
+.top-bottom3 {
+ position: absolute;
+ top: 10%;
+ left: 1%;
+ font-size:25px;
+ font-weight:700;
+ color: #111111;
+}
 
 
 
@@ -428,7 +436,7 @@ padding: 15px 32px;
 
  .card1 {
     width: 300px;
-    height: 250px;
+    height: 280px;
     margin-left:auto;
     margin-right:auto;
     background: crimson;
