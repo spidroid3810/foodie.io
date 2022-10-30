@@ -140,7 +140,7 @@ function item1(){
     
     document.getElementById('name1')
     
-    .innerHTML="Non-veg Burger Combo Meals";
+    .innerHTML="Burger Combo Meals";
     
     document.getElementById('price1')
     
