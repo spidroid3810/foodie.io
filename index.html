@@ -20,9 +20,14 @@
          <i class="fas fa-bars"></i>
          </label>
          <ul>
+         <br>
+          <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+         <i class="fas fa-x"></i>
+         </label>
             <li><a href="#">Home</a></li>
             <li><a href="#">Menu</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="#blog">Blog</a></li>
             <li><a href="#">Reservation</a></li>
             <li><a href="#">Pages</a></li>
          </ul>
@@ -56,7 +61,7 @@
              </div>
              <div class="side side2">
              <div class="img-info">
-             <a class="btn1" href="#">More Info</a>
+             <a class="btn1" href="#">See Menu</a>
              </div>
              </div>
              </div>
@@ -69,7 +74,7 @@
              </div>
              <div class="side side2">
              <div class="img-info">
-             <a class="btn1" href="#">More Info</a>
+             <a class="btn1" href="#">See Menu</a>
              </div>
              </div>
              </div>
@@ -77,12 +82,12 @@
              <div class="side side1">
              <div class="img-info">
              <img src="soft.png" data-aos="slide-left">
-             <h2>French Fries</h2>
+             <h2>Soft drinks</h2>
              </div>
              </div>
              <div class="side side2">
              <div class="img-info">
-             <a class="btn1" href="#">More Info</a>
+             <a class="btn1" href="#">See Menu</a>
              </div>
              </div>
              </div>
@@ -92,7 +97,7 @@
              <div class="container2" data-aos="fade-in">
              <div class="text-bot" >WE PUT 100% OF LOVE AND DEDICATION</div>
              <h1>Panpie, Burgers, And Best Pizzas In Town</h1>
-             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> 
+             <p class="des">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p> 
                      
            <h4>  <i class="fas fa-check-circle"></i> Additional charge for premium toppings</h4>
              <br>
@@ -104,7 +109,7 @@
              <a class="btn1" href="" >Who We Are?</a>
             <br>
             <br>
-             <img class="ring" src="bugers.jpg" data-aos="slide-up">
+             <img class="ring" src="burgers.jpg" data-aos="slide-up">
              </div>
              
               <div class="text-bot" data-aos="fade-in">FRESH FROM PANPIE</div>
@@ -112,83 +117,294 @@
              To Eat Best Food</h1>
            
              
-             <button class="btn1" onclick="item1();item2();item3();item4();item5();item6();" data-aos="fade-in" >ALL Items</button>
+             <button class="btn1" onclick="item1();item2();item3();item4();" data-aos="fade-in" >ALL Items</button>
              
-             <button class="btn1" onclick="afterr1();afterr2();afterr3();afterr4();afterr5();afterr6();" data-aos="fade-in" >Pizzas</button>
+             <button class="btn1" onclick="pizza1();pizza2();pizza3();pizza4();" data-aos="fade-in" >Pizzas</button>
              
-             <button class="btn1" onclick="before1();before2();before3();before4();before5();before6();" data-aos="fade-in" >Burgers</button>
+             <button class="btn1" onclick="burger1();burger2();burger3();burger4();" data-aos="fade-in" >Burgers</button>
              
-             <button class="btn1" onclick="" data-aos="fade-in">Wraps</button>
+             <button class="btn1" onclick="wraps1();wraps2();wraps3();wraps4();" data-aos="fade-in">Wraps</button>
              
              <button class="btn1" onclick="soft1();soft2();soft3();soft4();soft5();soft6();" data-aos="fade-in">Soft Drinks</button>
              
-             <div class="container4">
+               <div class="container3">
              <div class="card1" data-aos="flip-left"> 
              <h3 id="name1">Burger</h3>
-             <img class="ring2" id="myImage1" src="burger.png" data-aos="flip-down">
+             <img class="ring2" id="myImage1" src="burger1.png" data-aos="flip-down">
              <br>
-             <br>
-             <p id="price1">$14.00<br>
-       
+             <p id="price1">$14.00
              </p>
+             
+             <span><input type="button" value="Buy now"></span>
+             <br>
              </div>
              
              <div class="card1" data-aos="flip-left"> 
              <h3 id="name2">Italiano pizza</h3>
-             <img class="ring2" id="myImage2" src="pizza.png" data-aos="flip-down">
-             <br>
+             <img class="ring2" id="myImage2" src="pizza1.png" data-aos="flip-down">
              <br>
              <p id="price2">22 cm $19.00<br>
              29cm $22.00
              </p>
+
+             <span><input type="button" value="Buy now"></span>
+            <br>
             </div>
              
              <div class="card1" data-aos="flip-left"> 
              <h3 id="name3">Soft drink</h3>
-             <img class="ring2" id="myImage3" src="soft.png" data-aos="flip-down">
-             <br>
+             <img class="ring2" id="myImage3" src="soft1.png" data-aos="flip-down">
              <br>
              <p id="price3">$5.00<br>
              </p>
+             
+             <span><input type="button" value="Buy now"></span>
+             <br>
              </div>
              
              <div class="card1" data-aos="flip-left"> 
              <h3 id="name4">French fries</h3>
-             <img class="ring2" id="myImage4" src="fries.png" data-aos="flip-down">
-             <br>
+             <img class="ring2" id="myImage4" src="wraps1.png" data-aos="flip-down">
              <br>
              <p id="price4">$10.00<br>
         
              </p>
+             <span><input type="button" value="Buy now"></span>
+             <br>
              </div>
+           
+             </div>
+             <br>
+             <br>
              
-             <div class="card1" data-aos="flip-left"> 
-             <h3 id="name5">Veg pizza</h3>
-             <img class="ring2" id="myImage5" src="pizza.png"data-aos="flip-down">
+             
+             <div class="container4" >
+             <div class="text-bot">IT'S BEST SIMPLE & USEFUL</div>
+             <h1>What Our Client Says</h1>
+             <p class="des">Contary to popular belief,Lorem ipsum is not simply random text. It has roots in his piece of Classical Latin literature from 45 BC, making it Over 2000 years old.
+             </p>
+             &nbsp;
+             <div class="left">
+             <h2 >Saad</h2>
+             
+             
+             <h4>Founder</h4>
+             
+             </div>
+             </div>
+             <br>
+             <ul>
+             <div class="statscounts" id="counter">
+             <div class="statwrap">
+             <h1 class="st1"><span class="stat-count" data-count="375">0</span></h1>
+             <li>INGREDIENTS</li>
+             </div>
+             <div class="statwrap">
+             <h1 class="st2"><span class="stat-count" data-count="297">0</span></h1>
+             <li>CLIENTS DAILY</li>
+             </div>
+             <div class="statwrap">
+             <h1 class="st3"><span class="stat-count" data-count="675">0</span></h1>
+             <li>YEARS OF EXPERIENCE</li>
+             </div>
+             <div class="statwrap">
+             <h1 class="st4"><span class="stat-count" data-count="471">0</span></h1>
+             <li>FRESH & HALAL</li>
+             </div>
+             </div>
+             </ul>
+             <br>
+
+
+             <div class="img-container">
+             <div class="image-con">
+             <div class="top-bottom2">
+             Discount For<br> 
+             DeliciousTasty<br>
+              Burgers!<br>
+             Sale off 50% only this week</div>
+             <img class="all" src="burpiz2.jpg" height="100%" width="100%">
+             <button class="btn3">Order now</button>
+             </div>
+    
+             <div class="image-con">
+             <div class="top-bottom2">
+             Discount For<br>
+             DeliciousTasty<br>
+              Burgers!<br>
+              Sale off 50% only this week</div> 
+             <img class="all" src="burpiz.jpg" height="100%" width="100%">
+             <button class="btn3">Order now</button>
+             </div> 
+       
+             <div class="image-con">
+             <div class="top-bottom2">
+             Discount For<br>
+             Burgers & Pizza with<br>
+             soft drinks!<br>
+             Sale off 50% only this week
              <br>
              <br>
-             <p id="price5">22 cm $19.00<br>
-             29cm $22.00
+             </div> 
+             <img class="all" src="piz3.jpg" height="100%" width="100%">
+             <button class="btn3">Order now</button>
+             </div>
+     
+             <div class="image-con">
+             <div class="top-bottom2">
+             Discount For<br>
+             DeliciousTasty<br>
+             Wraps!<br>
+             Sale off 50% only this week</div> 
+             <img class="all" src="wraps.jpg" height="100%" width="100%">
+             <button class="btn3">Order now</button>
+             </div>
+             </div>
+             <br>
+             
+             
+             <section id="blog">
+             <div class="container4">
+             <div class="text-bot">NEWS & BLOGS</div>
+             <h1>What's Happening In Your Town</h1>
+             <br>
+             <img class="blog" src="burgers.jpg" height="100%" width="100%">
+             <p style="color: #111;">"Rotting melons, dried-up mustard,<br>
+             Eggshells mixed with lemon custard,<br>
+             Cold French fries and rancid meat,<br>
+             Yellow lumps of Cream of Wheat. . ."</p>
+             </p>
+             
+             <img class="blog" src="burgers.jpg" height="100%" width="100%">
+             <p style="color: #111;">"Rotting melons, dried-up mustard,<br>
+             Eggshells mixed with lemon custard,<br>
+             Cold French fries and rancid meat,<br>
+             Yellow lumps of Cream of Wheat. . ."</p>
+             </p>
+             
+             <img class="blog" src="burgers.jpg" height="100%" width="100%">
+             <p style="color: #111;">"Rotting melons, dried-up mustard,<br>
+             Eggshells mixed with lemon custard,<br>
+             Cold French fries and rancid meat,<br>
+             Yellow lumps of Cream of Wheat. . ."</p>
+             </p>
+             
+             <img class="blog" src="burgers.jpg" height="100%" width="100%">
+             <p class="des">"Rotting melons, dried-up mustard,<br>
+             Eggshells mixed with lemon custard,<br>
+             Cold French fries and rancid meat,<br>
+             Yellow lumps of Cream of Wheat. . ."</p>
+             </p>
+             
+             </div>
+             </section>
+            
+             
+             <div class="container4">
+             <div class="row justify-content-center">
+             <div class="text-bot"><h2>Join Our Newsletter</h2></div>
+             <p class="des">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+             <form action="" method="post">
+             <input type="email" name="email"><input type="submit" value="Subscribe">
+             </form>
+             </div>
+             </div>
+            
+             
+         
+             <div class="container3">
+             
+             <div class="footer-contact">
+             <h3 class="footer-head">FOODIE</h3>
+             <p class="des">
+             A108 Adam Street <br>
+             New York, NY 535022<br>
+             United States <br><br>
+             <strong>Phone:</strong> +1 5589 55488 55<br>
+             <strong>Email:</strong> info@example.com<br>
              </p>
              </div>
              
-             <div class="card1" data-aos="flip-left"> 
-             <h3 id="name6">Burger Two</h3>
-             <img class="ring2" id="myImage6" src="burger.png"data-aos="flip-down">
-             <br>
-             <br>
-             <p id="price6">$16.00<br>
-             </p>
+             <div class="footer-links">
+             <div class="text-bot"><h4>Useful Links</h4></div>
+             <ul>
+             <li><i class="fas fa-chevron-right"></i> <a href="#">Home</a></li>
+             <li><i class="fas fa-chevron-right"></i> <a href="#">About us</a></li>
+             <li><i class="fas fa-chevron-right"></i> <a href="#">Services</a></li>
+             <li><i class="fas fa-chevron-right"></i> <a href="#">Terms of service</a></li>
+             <li><i class="fas fa-chevron-right"></i> <a href="#">Privacy policy</a></li>
+             </ul>
              </div>
              
+             <div class="footer-links">
+             <div class="text-bot"><h4>Our Services</h4></div>
+             <ul>
+             <li><i class="fas fa-chevron-right"></i> <a href="#">Web Design</a></li>
+             <li><i class="fas fa-chevron-right"></i> <a href="#">Web Development</a></li>
+             <li><i class="fas fa-chevron-right"></i> <a href="#">Product Management</a></li>
+             <li><i class="fas fa-chevron-right"></i> <a href="#">Marketing</a></li>
+             <li><i class="fas fa-chevron-right"></i> <a href="#">Graphic Design</a></li>
+             </ul>
              </div>
              
+             <div class="footer-links">
+             <div class="text-bot"><h4>Our Social Networks</h4></div>
+             <p class="des">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+             <div class="social">
+             <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+             <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+             <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+             <a href="#" class="google-plus"><i class="fab fa-skype"></i></a>
+             <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+             </div>
+             </div>
+             </div>
+             
+             
+ 
+       <br>
+      <br>
+      <br> 
+ <footer>© FOODIE | All Rights Reserved 2022</footer>            
  
 </div>
 <script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();    
+    
+   function reInitCount(){
+   $(".stat-count").each(function() {
+   $(this).html('0');
+   count($(this));
+   });
+   }
+   
+   function count($this) {
+   var current = parseInt($this.html(), 10);
+   current = current + 1;
+   $this.html(++current);
+   if (current > $this.data('count')) {
+   $this.html($this.data('count'));
+   } else {
+   setTimeout(function() {
+   count($this)
+   }, 1);
+   }
+   }
+   
+   reInitCount();
+   
+   
+   $(window).scroll(function (event) {
+   var scroll = $(window).scrollTop();
+   if(scroll == 0)
+   setTimeout(function(){reInitCount();},500);
+   
+   
+   });
+   
   </script>
 </body>
 </html>
