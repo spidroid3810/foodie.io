@@ -2,7 +2,7 @@ function item1(){
     
     document.getElementById('myImage1')
     
-    .src="burger.png";
+    .src="burger1.png";
     
     document.getElementById('name1')
     
@@ -19,7 +19,7 @@ function item1(){
     
     document.getElementById('myImage2')
     
-    .src="pizza.png";
+    .src="pizza1.png";
     
     document.getElementById('name2')
     
@@ -35,7 +35,7 @@ function item1(){
     
     document.getElementById('myImage3')
     
-    .src="soft.png";
+    .src="soft1.png";
     
     document.getElementById('name3')
     
@@ -52,7 +52,7 @@ function item1(){
     
     document.getElementById('myImage4')
     
-    .src="fries.png";
+    .src="wraps1.png";
     
     document.getElementById('name4')
     
@@ -65,46 +65,13 @@ function item1(){
     
     }
     
-    function item5(){
-    
-    document.getElementById('myImage5')
-    
-    .src="pizza.png";
-    
-    document.getElementById('name5')
-    
-    .innerHTML="Veg pizza";
-    
-    document.getElementById('price5')
-    
-    .innerHTML="22cm $19.00<br>29cm $22.00";
-    
-    
-    }
-    
-    function item6(){
-    
-    document.getElementById('myImage6')
-    
-    .src="burger.png";
-    
-    document.getElementById('name6')
-    
-    .innerHTML="Burger Two";
-    
-    document.getElementById('price6')
-    
-    .innerHTML="$16.00";
-    
-    
-    }
    
     
-    function before1(){
+    function burger1(){
     
     document.getElementById('myImage1')
     
-    .src="burger.png";
+    .src="burger1.png";
     
     document.getElementById('name1')
     
@@ -116,11 +83,11 @@ function item1(){
             
     }
     
-    function before2(){
+    function burger2(){
     
     document.getElementById('myImage2')
     
-    .src="burger.png";
+    .src="burger2.png";
     
     document.getElementById('name2')
     
@@ -131,11 +98,11 @@ function item1(){
     .innerHTML="$19.00";
     }
     
-    function before3(){
+    function burger3(){
     
     document.getElementById('myImage3')
     
-    .src="burger.png";
+    .src="burger3.png";
     
     document.getElementById('name3')
     
@@ -147,11 +114,11 @@ function item1(){
     
     }
     
-    function before4(){
+    function burger4(){
     
     document.getElementById('myImage4')
     
-    .src="burger.png";
+    .src="burger4.png";
     
     document.getElementById('name4')
     
@@ -163,44 +130,13 @@ function item1(){
     
     }
     
-    function before5(){
     
-    document.getElementById('myImage5')
-    
-    .src="burger.png";
-    
-    document.getElementById('name5')
-    
-    .innerHTML="Burger Five";
-    
-    document.getElementById('price5')
-    
-    .innerHTML="$15.00";
-    
-    }
-    
-    function before6(){
-    
-    document.getElementById('myImage6')
-    
-    .src="burger.png";
-    
-    document.getElementById('name6')
-    
-    .innerHTML="Burger six";
-    
-    document.getElementById('price6')
-    
-    .innerHTML="$14.00";
-    
-    
-    }
     
     function soft1(){
     
     document.getElementById('myImage1')
     
-    .src="soft.png";
+    .src="soft1.png";
     
     document.getElementById('name1')
     
@@ -216,7 +152,7 @@ function item1(){
     
     document.getElementById('myImage2')
     
-    .src="soft.png";
+    .src="soft2.png";
     
     document.getElementById('name2')
    
@@ -232,7 +168,7 @@ function item1(){
     
     document.getElementById('myImage3')
     
-    .src="soft.png";
+    .src="soft3.png";
     
     document.getElementById('name3')
     
@@ -248,7 +184,7 @@ function item1(){
     
     document.getElementById('myImage4')
     
-    .src="soft.png";
+    .src="soft4.png";
     
     document.getElementById('name4')
     
@@ -260,44 +196,12 @@ function item1(){
     
     }
     
-    function soft5(){
-    
-    document.getElementById('myImage5')
-    
-    .src="soft.png";
-    
-    document.getElementById('name5')
-    
-    .innerHTML="Soft drink Five";
-    
-    document.getElementById('price5')
-    
-    .innerHTML="$10.00";
-    
-   
-    }
-    
-    function soft6(){
-    
-    document.getElementById('myImage6')
-    
-    .src="soft.png";
-    
-    document.getElementById('name6')
-    
-    .innerHTML="Soft drink six";
-    
-    document.getElementById('price6')
-    
-    .innerHTML="$8.00";
-    
-    }
-    
-    function afterr1(){
+  
+    function pizza1(){
     
     document.getElementById('myImage1')
     
-    .src="pizza.png";
+    .src="pizza1.png";
     
     document.getElementById('name1')
     
@@ -309,11 +213,11 @@ function item1(){
     
     }
     
-    function afterr2(){
+    function pizza2(){
     
     document.getElementById('myImage2')
     
-    .src="pizza.png";
+    .src="pizza2.png";
     
      document.getElementById('name2')
         
@@ -326,11 +230,11 @@ function item1(){
     }
     
     
-    function afterr3(){
+    function pizza3(){
     
     document.getElementById('myImage3')
     
-    .src="pizza.png";
+    .src="pizza3.png";
     
     document.getElementById('name3')
     
@@ -344,11 +248,11 @@ function item1(){
        
     }
     
-    function afterr4(){
+    function pizza4(){
     
     document.getElementById('myImage4')
     
-    .src="pizza.png";
+    .src="pizza4.png";
     
     document.getElementById('name4')
     
@@ -361,38 +265,76 @@ function item1(){
     
     }
     
-    function afterr5(){
-    
-    document.getElementById('myImage5')
-    
-    .src="pizza.png";
-    
-    document.getElementById('name5')
-    
-    .innerHTML="paneer pizza";
-    
-    document.getElementById('price5')
-    
-    .innerHTML="22cm $14.00<br>29cm $16.00";
-    
-        
-    }
-    
-    function afterr6(){
-    
-    document.getElementById('myImage6')
-    
-    .src="pizza.png";
-    
-       document.getElementById('name6')
-       
-       .innerHTML="Cheese pizza";
-       
-       document.getElementById('price6')
-       
-       .innerHTML="22cm $14.00<br>29cm $16.00";
-       
-       
-    }
+  function wraps1(){
+  
+  document.getElementById('myImage1')
+  
+  .src="wraps1.png";
+  
+  document.getElementById('name1')
+  
+  .innerHTML="Veggie wrap";
+  
+  document.getElementById('price1')
+  
+  .innerHTML="22cm $19.00<br>29cm $22.00";
+  
+  }
+  
+  function wraps2(){
+  
+  document.getElementById('myImage2')
+  
+  .src="wraps2.png";
+  
+  document.getElementById('name2')
+  
+  .innerHTML="cheese wrap";
+  
+  document.getElementById('price2')
+  
+  .innerHTML="22cm $15.00<br>29cm $19.00";
+  
+  }
+  
+  
+  function wraps3(){
+  
+  document.getElementById('myImage3')
+  
+  .src="wraps3.png";
+  
+  document.getElementById('name3')
+  
+  .innerHTML="Mexican pizza";
+  
+  document.getElementById('price3')
+  
+  .innerHTML="22cm $15.00<br>29cm $20.00";
+  
+  
+  
+  }
+  
+  function wraps4(){
+  
+  document.getElementById('myImage4')
+  
+  .src="wraps4.png";
+  
+  document.getElementById('name4')
+  
+  .innerHTML="Veg pizza";
+  
+  document.getElementById('price4')
+  
+  .innerHTML="22cm $16.00<br>29cm $18.00";
+  
+  
+  }
+  
+  
+  
+  
     
     
