@@ -24,7 +24,14 @@ nav{
   flex-wrap: wrap;
 }
 
-
+.nav-close{
+height: 80px;
+width:100%;
+background: crimson; 
+padding: 20px;
+position: fixed;
+top:0;
+}         
 
 nav .logo{
   background:linear-gradient(45deg,#fea735,#ffea00,#fea735) ;
