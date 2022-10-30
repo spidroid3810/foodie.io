@@ -504,7 +504,9 @@ padding: 20px;
 
 .blog{
 border-radius:20px;
+width: 90%;
 }
+
 
 .all{
 border-radius:20px;
@@ -626,6 +628,11 @@ color: #fea735;
   text-align: center;
 }
 
+ .text-bot2{
+color: crimson;
+
+}
+
 
 .btn3:hover{
 background: #111;
@@ -642,6 +649,8 @@ background: #111;
   .img-container { grid-template-columns: repeat(2, 1fr); }
 
   .statscounts { grid-template-columns: repeat(4, 1fr); }
+
+.blog-con { grid-template-columns: repeat(3, 1fr); }
 
 
 
@@ -679,14 +688,7 @@ background: #111;
  color: #fff;
  }
  
- .blog{
- border-radius:20px;
- background: #333;
- width: 80%;
- margin-left:auto;
- margin-right:auto;
- }
- 
+
 
 
  
