@@ -697,7 +697,7 @@ background: #111;
  position: absolute;
  font-size:26px;
  top: 8px;
- left: 20%;
+ left: 30%;
  font-weight:500;
  color: crimson;
  }
@@ -705,7 +705,7 @@ background: #111;
  .top-bottom {
  position: absolute;
  top: 50px;
- left: 20%;
+ left: 10%;
  font-size:55px;
  font-weight:700;
  color: #fff;
@@ -714,8 +714,8 @@ background: #111;
  
 
   .foodie{
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
  position: absolute;
  right: 0;
  border-radius:100%;
