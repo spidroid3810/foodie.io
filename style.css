@@ -662,6 +662,11 @@ background: #111;
 }
 
 
+.svg{
+display: none;
+
+}
+
 @media (min-width: 500px) {
 
  .team { grid-template-columns: repeat(2, 1fr); }
@@ -708,7 +713,7 @@ background: #111;
  left: 10%;
  font-size:55px;
  font-weight:700;
- color: #fff;
+ color: #111;
  
  }
  
@@ -721,16 +726,20 @@ background: #111;
  border-radius:100%;
  top: 0;
  border: 10px solid crimson;
- background: crimson;
   }
   
   
  .container{
  height: 400px;
- max-width:1000px;
+ max-width:800px;
  background: #eee;
  }
 
+
+.svg{
+display: block;
+
+}
 
  
  }
