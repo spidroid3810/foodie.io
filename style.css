@@ -32,14 +32,7 @@ nav{
   flex-wrap: wrap;
 }
 
-.nav-close{
-height: 80px;
-width:100%;
-background: crimson; 
-padding: 20px;
-position: fixed;
-top:0;
-}         
+
 
 nav .logo{
   background:linear-gradient(45deg,#fea735,#ffea00,#fea735) ;
@@ -186,6 +179,8 @@ position: absolute;
  font-size:30px;
  font-weight:700;
  color: #fff;
+ text-shadow: 0 2px crimson , 0 2px crimson ;
+ 
 }
 
 .top-bottom2 {
@@ -194,7 +189,8 @@ position: absolute;
  left: 1%;
  font-size:25px;
  font-weight:700;
- color: #ffffff;
+ text-shadow: 0 2px crimson , 0 2px crimson ;
+ color: #fff;
 }
 
 .top-bottom3 {
@@ -203,7 +199,8 @@ position: absolute;
  left: 1%;
  font-size:25px;
  font-weight:700;
- color: #111111;
+ text-shadow: 0 2px crimson, 0 2px crimson ;
+ color: #fff;
 }
 
 
