@@ -697,7 +697,7 @@ background: #111;
  position: absolute;
  font-size:26px;
  top: 8px;
- left: 10%;
+ left: 20%;
  font-weight:500;
  color: crimson;
  }
@@ -705,7 +705,7 @@ background: #111;
  .top-bottom {
  position: absolute;
  top: 50px;
- left: 1.5%;
+ left: 20%;
  font-size:55px;
  font-weight:700;
  color: #fff;
@@ -727,7 +727,7 @@ background: #111;
   
  .container{
  height: 400px;
- max-width:800px;
+ max-width:1000px;
  background: #eee;
  }
 
