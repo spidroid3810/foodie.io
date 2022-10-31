@@ -14,6 +14,13 @@ body{
 background: #fff;
 }
 
+.foodie{
+width: 100%;
+height: auto;
+
+}
+
+
 nav{
   display: flex;
   height: 80px;
@@ -672,9 +679,9 @@ background: #111;
 
  .container .btn{
  position: absolute;
- top: 80%;
- left: 52%;
- transform: translate(0%, 800%);
+ top: 60%;
+ left: 20%;
+ transform: translate( 0%, -50%);
  -ms-transform: translate(-50%, -50%);
  background-color: crimson;
  color: white;
@@ -690,7 +697,7 @@ background: #111;
  position: absolute;
  font-size:26px;
  top: 8px;
- left: 50%;
+ left: 10%;
  font-weight:500;
  color: crimson;
  }
@@ -698,13 +705,31 @@ background: #111;
  .top-bottom {
  position: absolute;
  top: 50px;
- left: 40%;
+ left: 1.5%;
  font-size:55px;
  font-weight:700;
  color: #fff;
+ 
  }
  
 
+  .foodie{
+  width: 300px;
+  height: 300px;
+ position: absolute;
+ right: 0;
+ border-radius:100%;
+ top: 0;
+ border: 10px solid crimson;
+ background: crimson;
+  }
+  
+  
+ .container{
+ height: 400px;
+ max-width:800px;
+ background: #eee;
+ }
 
 
  
