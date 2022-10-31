@@ -673,6 +673,8 @@ display: none;
 
 }
 
+
+
 @media (min-width: 500px) {
 
  .team { grid-template-columns: repeat(2, 1fr); }
@@ -720,7 +722,7 @@ display: none;
  font-size:55px;
  font-weight:700;
  color: #fff;
- 
+ z-index:2;
  }
  
 
@@ -751,3 +753,5 @@ display: block;
 
  
  }
+ 
+ 
