@@ -392,6 +392,9 @@ font-weight:700;
 color: #fff;
 }
 
+.btn:hover{
+background: #111;
+}
 
 
 
@@ -557,24 +560,27 @@ margin-right:auto;
 
 input[type="email"]{
 font-family: 'Poppins', sans-serif;
-font-weight: 200;
+font-weight: 400;
 font-size: 16px;
 padding: .4em;
 background: rgba(249, 250, 250, .5);
 border: 1px solid rgba(74, 86, 96, .1);
-border-radius: 20px;
 outline-color: #5dc3f2;
+width: 210px;
+border-top-left-radius:20px;
+border-bottom-left-radius:20px;
 }
 
 input[type="submit"]{
 font-family: 'Poppins', sans-serif;
-font-weight: 200;
+font-weight: 700;
 font-size: 16px;
 padding: .4em;
 background: crimson;
 border: 1px solid rgba(74, 86, 96, .1);
-border-radius: 20px;
 color: #fff;
+border-top-right-radius:20px;
+border-bottom-right-radius:20px;
 }
 
 .footer-contact{
@@ -734,6 +740,8 @@ display: none;
  max-width:1000px;
  background: #eee;
  }
+
+
 
 
 .svg{
