@@ -680,7 +680,7 @@ background: #111;
  .container .btn{
  position: absolute;
  top: 60%;
- left: 20%;
+ left: 25%;
  transform: translate( 0%, -50%);
  -ms-transform: translate(-50%, -50%);
  background-color: crimson;
@@ -697,7 +697,7 @@ background: #111;
  position: absolute;
  font-size:26px;
  top: 8px;
- left: 30%;
+ left: 25%;
  font-weight:500;
  color: crimson;
  }
@@ -714,8 +714,8 @@ background: #111;
  
 
   .foodie{
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
  position: absolute;
  right: 0;
  border-radius:100%;
