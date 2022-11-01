@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   <meta charset="utf-8">
+      <title></title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   
+<body>
+<nav>
+         <div class="logo">
+          <b>FOODIE</b> <i class="fa-solid fa-burger"></i> 
+           </div>
+         <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         </label>
+         <ul>
+         <br>
+        <label for="click" class="menu-btn">
+         <i style="font-size:36px;cursor:none;" class="fa fa-times-circle"></i>
+         </label>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a>
+            <li><a href="#">Blog</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="about.html">About Us</a></li>
+         </ul>
+      </nav>
+           
+            <div class="content">
+            <div class="container"><div class="top-left">Know About<br>Our Blogs</div><div class="top-bottom">Best  Burgers<br>And<br>Pizza  Blogs</div>
+            <svg class="svg" viewBox="0 0 500 500"
+            preserveAspectRatio="xMinYMin meet">
+            
+            <path d="M0, 100 C150, 200 350,
+            0 500, 100 L500, 00 L0, 0 Z"
+            style="stroke:none; fill:#fea735;">
+            </path>
+            </svg>
+            </div>
+            <img class="foodie" src="images/blog.jpg" data-aos="fade-up" >
+         <br>
+             <div class="container2" data-aos="fade-up">
+             <div class="text-bot">NEWS & BLOGS</div>
+             <h1>What's Happening In Your Town</h1>
+             <br>
+             <img class="blog" src="images/blog-01.jpg" height="100%" width="100%" data-aos="fade-in">
+             <p style="color: #111;">
+             <h1 class="text-bot2">Do You Think About Cheese Pizza Recipes?</h1>
+             It is a long established fact that a reader will be distracted by the readable content
+             <br>
+            <a class="text-bot2" href="" >READ MORE</a>
+             </p>
+             <br>
+             <img class="blog" src="images/blog-02.jpg" height="100%" width="100%" data-aos="fade-in">
+             <p style="color: #111;">
+             <h1 class="text-bot2">Hot Pepperoni pizza with chesse.</h1>
+             It is a long established fact that a reader will be distracted by the readable content
+             <br>
+             <a class="text-bot2" href="" >READ MORE</a>
+            </p>
+             <br>
+             <img class="blog" src="images/blog-03.jpeg" height="100%" width="100%" data-aos="fade-in">
+             <p style="color: #111;"><h1 class="text-bot2">Chicken Burger With New Ingridents Made.</h1>
+             It is a long established fact that a reader will be distracted by the readable content
+             <br>
+             <a class="text-bot2" href="" >READ MORE</a>
+             </p>
+      
+             </div>
+           
+
+<div class="container4">
+      <div class="row justify-content-center">
+      <div class="text-bot"><h2>Join Our Newsletter</h2></div>
+      <p class="des">Get in your inbox the latest News and Offers from FOODIE</p>
+      <form action="" method="post">
+      <input type="email" name="email"><input type="submit" value="Subscribe">
+      </form>
+      </div>
+      </div>
+     
+      
+  
+      <div class="container3">
+      
+      <div class="footer-contact">
+      <h3 class="footer-head">FOODIE <i class="fa-solid fa-burger"></i> </h3>
+      <p class="des">
+      A108 Adam Street <br>
+      New York, NY 535022<br>
+      United States <br><br>
+      <strong>Phone:</strong> +1 5589 55488 55<br>
+      <strong>Email:</strong> info@example.com<br>
+      </p>
+      </div>
+      
+      <div class="footer-links">
+      <div class="text-bot"><h4>Useful Links</h4></div>
+      <ul>
+      <li><i class="fas fa-chevron-right"></i> <a href="#"></a>About Us</li>
+      <li><i class="fas fa-chevron-right"></i> <a href="#"></a>Blog</li>
+      <li><i class="fas fa-chevron-right"></i> <a href="#">Menu Items</a></li>
+      <li><i class="fas fa-chevron-right"></i> <a href="#">Our Team</a></li>
+      <li><i class="fas fa-chevron-right"></i> <a href="#">Special Offer</a></li>
+      <li><i class="fas fa-chevron-right"></i> <a href="#">Custom Order</a></li>
+      <li><i class="fas fa-chevron-right"></i> <a href="#">Contact Us</a></li>
+      </ul>
+      </div>
+      
+      
+      <div class="footer-links">
+      <div class="text-bot"><h4>Our Social Networks</h4></div>
+      <br>
+      <div class="social">
+      <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="google-plus"><i class="fab fa-skype"></i></a>
+      <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+      </div>
+      </div>
+      </div>
+      <br>
+<br>
+<br>
+<br> 
+<footer>© FOODIE | All Rights Reserved 2022</footer>            
+
+</div>
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();    
+   
+  function reInitCount(){
+  $(".stat-count").each(function() {
+  $(this).html('0');
+  count($(this));
+  });
+  }
+  
+  function count($this) {
+  var current = parseInt($this.html(), 10);
+  current = current + 1;
+  $this.html(++current);
+  if (current > $this.data('count')) {
+  $this.html($this.data('count'));
+  } else {
+  setTimeout(function() {
+  count($this)
+  }, 1);
+  }
+  }
+  
+  reInitCount();
+  
+  
+  $(window).scroll(function (event) {
+  var scroll = $(window).scrollTop();
+  if(scroll == 0)
+  setTimeout(function(){reInitCount();},500);
+  
+  
+  });
+  
+ </script>
+</body>
+</html>

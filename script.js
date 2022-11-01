@@ -2,7 +2,7 @@ function item1(){
     
     document.getElementById('myImage1')
     
-    .src="burger1.png";
+    .src="images/burger1.png";
     
     document.getElementById('name1')
     
@@ -19,7 +19,7 @@ function item1(){
     
     document.getElementById('myImage2')
     
-    .src="pizza1.png";
+    .src="images/pizza1.png";
     
     document.getElementById('name2')
     
@@ -35,7 +35,7 @@ function item1(){
     
     document.getElementById('myImage3')
     
-    .src="soft1.png";
+    .src="images/soft1.png";
     
     document.getElementById('name3')
     
@@ -52,7 +52,7 @@ function item1(){
     
     document.getElementById('myImage4')
     
-    .src="wraps1.png";
+    .src="images/wraps1.png";
     
     document.getElementById('name4')
     
@@ -71,7 +71,7 @@ function item1(){
     
     document.getElementById('myImage1')
     
-    .src="burger1.png";
+    .src="images/burger1.png";
     
     document.getElementById('name1')
     
@@ -87,7 +87,7 @@ function item1(){
     
     document.getElementById('myImage2')
     
-    .src="burger2.png";
+    .src="images/burger2.png";
     
     document.getElementById('name2')
     
@@ -102,7 +102,7 @@ function item1(){
     
     document.getElementById('myImage3')
     
-    .src="burger3.png";
+    .src="images/burger3.png";
     
     document.getElementById('name3')
     
@@ -118,7 +118,7 @@ function item1(){
     
     document.getElementById('myImage4')
     
-    .src="burger4.png";
+    .src="images/burger4.png";
     
     document.getElementById('name4')
     
@@ -136,7 +136,7 @@ function item1(){
     
     document.getElementById('myImage1')
     
-    .src="soft1.png";
+    .src="images/soft1.png";
     
     document.getElementById('name1')
     
@@ -152,7 +152,7 @@ function item1(){
     
     document.getElementById('myImage2')
     
-    .src="soft2.png";
+    .src="images/soft2.png";
     
     document.getElementById('name2')
    
@@ -168,7 +168,7 @@ function item1(){
     
     document.getElementById('myImage3')
     
-    .src="soft3.png";
+    .src="images/soft3.png";
     
     document.getElementById('name3')
     
@@ -184,7 +184,7 @@ function item1(){
     
     document.getElementById('myImage4')
     
-    .src="soft4.png";
+    .src="images/soft4.png";
     
     document.getElementById('name4')
     
@@ -201,7 +201,7 @@ function item1(){
     
     document.getElementById('myImage1')
     
-    .src="pizza1.png";
+    .src="images/pizza1.png";
     
     document.getElementById('name1')
     
@@ -217,7 +217,7 @@ function item1(){
     
     document.getElementById('myImage2')
     
-    .src="pizza2.png";
+    .src="images/pizza2.png";
     
      document.getElementById('name2')
         
@@ -234,7 +234,7 @@ function item1(){
     
     document.getElementById('myImage3')
     
-    .src="pizza3.png";
+    .src="images/pizza3.png";
     
     document.getElementById('name3')
     
@@ -252,7 +252,7 @@ function item1(){
     
     document.getElementById('myImage4')
     
-    .src="pizza4.png";
+    .src="images/pizza4.png";
     
     document.getElementById('name4')
     
@@ -269,7 +269,7 @@ function item1(){
   
   document.getElementById('myImage1')
   
-  .src="wraps1.png";
+  .src="images/wraps1.png";
   
   document.getElementById('name1')
   
@@ -285,7 +285,7 @@ function item1(){
   
   document.getElementById('myImage2')
   
-  .src="wraps2.png";
+  .src="images/wraps2.png";
   
   document.getElementById('name2')
   
@@ -302,7 +302,7 @@ function item1(){
   
   document.getElementById('myImage3')
   
-  .src="wraps3.png";
+  .src="images/wraps3.png";
   
   document.getElementById('name3')
   
@@ -320,7 +320,7 @@ function item1(){
   
   document.getElementById('myImage4')
   
-  .src="wraps4.png";
+  .src="images/wraps4.png";
   
   document.getElementById('name4')
   
@@ -336,5 +336,3 @@ function item1(){
   
   
   
-    
-    
