@@ -402,6 +402,7 @@ padding: 10px;
 text-decoration:none;
 font-weight:700;
 color: #fff;
+cursor: pointer;
 }
 
 .btn1:hover{
