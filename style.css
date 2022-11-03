@@ -893,13 +893,16 @@ left: 30%;
 
 }
 
-h6{
+
+
+.logo1{
   background:linear-gradient(45deg,#fea735,#ffea00,#fea735) ;
   -webkit-text-fill-color: transparent; 
   -webkit-background-clip: text;
 text-align: center;
 margin: 40px;
 font-weight: 700;
+font-size:45px;
 }
 
 
@@ -926,7 +929,7 @@ background: url("images/one.png");
 background-color: powderblue;
 background-size: cover;
 height: 300px;
-min-width: 300px;
+min-width: 320px;
 justify-content: center;
 align-items: center;
 perspective: 1000px;
