@@ -966,7 +966,7 @@ width: 100%;
   
  .container{
  height: 400px;
- max-width:1000px;
+ max-width:100%;
  background: #eee;
  }
 
