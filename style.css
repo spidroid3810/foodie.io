@@ -918,8 +918,7 @@ height: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
-background: crimson;
-font-size:100px;
+background-color: crimson;
 }
 
 
@@ -1401,4 +1400,36 @@ button {
  button:hover{
  background: #0f4061;
  
+ }
+ 
+  
+ .contain {
+ -webkit-animation: shake .5s ease-in-out;
+ animation: shake .5s ease-in-out;
+ animation-delay:1s;
+ }
+ @-webkit-keyframes shake {
+ 0% {
+ -webkit-transform: translateX(0);
+ }
+ 
+ 20% {
+ -webkit-transform: translateX(-10px);
+ }
+ 
+ 40% {
+ -webkit-transform: translateX(10px);
+ }
+ 
+ 60% {
+ -webkit-transform: translateX(-10px);
+ }
+ 
+ 80% {
+ -webkit-transform: translateX(10px);
+ }
+ 
+ 100% {
+ -webkit-transform: translateX(0);
+ }
  }
